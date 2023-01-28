@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    font-family: 'Great Vibes', cursive;
+    margin: 10px;
+    padding: 10px;
+}
+.search{
+    display: inline;
+}
+
+.glass{
+    
+    float: right;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.heading{
+    text-align: center;
+    color: pink;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
+
+  /*  <--> navbar */
+
+  
+  .sitepage nav{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .header .unordered {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+
+  .header .unordered  .site {
+    display: inline-block;
+    padding: 1rem 0rem;
+  }
+
+  .header .unordered  .site .pages {
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(119, 16, 16);
+  }
+ .pages:hover{
+    color: aqua;
+ }
+
+
+/* picture and heading*/
+
+img{
+    margin-top: 20px;
+    width: 500px;
+}
+
+.heading{
+    text-align: center;
+    color: pink;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    
+}
+
+/* body*/
+
+.content{
+    margin: 20px;
+    padding: 10px;
+}
+
+.ingredients:hover{
+    color: crimson;
+}
+
+.details{
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Footer-navbar */
+
+.etc{
+    background-color: black;
+  }
+  
+  .etc .uli {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+
+  .etc .uli  .about .ipage {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    display: inline-block;
+    padding: 1rem 0rem;
+  }
+
+  .etc .uli  .faq .ipage {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    display: inline-block;
+    padding: 1rem 0rem;
+  }
+  .etc .uli  .recipes .ipage {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    display: inline-block;
+    padding: 1rem 0rem;
+  }
+
+  .etc .uli  .contact .ipage {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    display: inline-block;
+    padding: 1rem 0rem;
+  }
+  .flexcontainer{
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  .fa-solid{
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .rights{
+   justify-content: center;
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+  }
